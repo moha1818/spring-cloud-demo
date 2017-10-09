@@ -12,4 +12,8 @@ public class Application {
 		new SpringApplicationBuilder(Application.class).web(true).run(args);
 	}
 
+	/*protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
+	{
+		return application.sources(Application.class);
+	}*/
 }
